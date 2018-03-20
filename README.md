@@ -6,7 +6,7 @@ Deployment with:
 #!/bin/bash
 
 repository=laundrapp/code-deploy-sample
-commitId=cc254177b8856a0e285106a8f27db0a7f7203b6f
+commitId=10a97dfb9501a9ed8e228aede77aaf721b6d2753
 
 aws deploy create-deployment \
   --application-name laundrapp-dev-pulse \
